@@ -3,4 +3,6 @@ description: "Thoughts, notes, and updates"
 baseurl: "" 
 url: "https://chaffin.github.io"
 theme: Mediumish
+plugins:
+- jekyll-remote-theme
 paginate: 5
