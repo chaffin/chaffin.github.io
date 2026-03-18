@@ -7,7 +7,9 @@ remote_theme: mmistakes/minimal-mistakes
 
 plugins:
   - jekyll-include-cache
-
+head_scripts:
+  - /assets/css/custom.css
+  
 # Medium-like appearance
 minimal_mistakes_skin: default   # keep it light and clean
 
