@@ -1,5 +1,39 @@
-title: Larry's Microblog
-description: Short thoughts and notes
+title: Larry Chaffin
+description: >-
+  Thoughts, stories and ideas.
+
+# Use Minimal Mistakes as a remote theme (GitHub Pages friendly)
 remote_theme: mmistakes/minimal-mistakes
+
 plugins:
   - jekyll-include-cache
+
+# Medium-like appearance
+minimal_mistakes_skin: default   # keep it light and clean
+
+# Layout behavior
+paginate: 5
+paginate_path: /page:num/
+
+# Author (optional, but nice like Medium)
+author:
+  name: Larry Chaffin
+  bio: ""
+  avatar: /assets/images/avatar.png
+
+# Defaults for posts (forces clean layout)
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: false
+      share: false
+      related: false
+
+# Remove visual clutter
+search: false
+breadcrumbs: true
