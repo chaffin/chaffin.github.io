@@ -1,6 +1,8 @@
 title: Larry's Microblog
 description: Short thoughts and notes
-theme: mmistakes/minimal-mistakes@4.26.2
+remote_theme: pages-themes/leap-day@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Make posts show on homepage
 show_excerpts: true
