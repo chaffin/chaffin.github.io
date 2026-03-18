@@ -1,8 +1,9 @@
-title: "Larry Chaffin"
-description: "Thoughts, notes, and updates"
-baseurl: "" 
-url: "https://chaffin.github.io"
-theme: Mediumish
-plugins:
-- jekyll-remote-theme
-paginate: 5
+title: Larry's Microblog
+description: Short thoughts and notes
+theme: minima
+
+# Make posts show on homepage
+show_excerpts: true
+
+# Microblog style
+permalink: /:year/:month/:day/:title/
