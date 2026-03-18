@@ -1,0 +1,6 @@
+title: "My Blog"
+description: "Thoughts, notes, and updates"
+baseurl: "" 
+url: "https://chaffin.github.io"
+theme: minima
+paginate: 5
