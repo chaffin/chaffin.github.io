@@ -1,3 +1,5 @@
 title: Larry's Microblog
 description: Short thoughts and notes
-theme: minima
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-include-cache
