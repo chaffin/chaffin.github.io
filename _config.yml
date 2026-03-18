@@ -1,9 +1,3 @@
 title: Larry's Microblog
 description: Short thoughts and notes
 theme: jekyll-theme-minimal
-
-# Make posts show on homepage
-show_excerpts: true
-
-# Microblog style
-permalink: /:year/:month/:day/:title/
