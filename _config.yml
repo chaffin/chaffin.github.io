@@ -2,5 +2,5 @@ title: "Larry Chaffin"
 description: "Thoughts, notes, and updates"
 baseurl: "" 
 url: "https://chaffin.github.io"
-theme: jekyll-theme-hacker
+theme: Mediumish
 paginate: 5
